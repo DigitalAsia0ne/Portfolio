@@ -20,7 +20,7 @@ export default function AdminLogin() {
     try {
       // Dummy Auth
       if (username === 'admin' && password === 'admin123') {
-        router.push('/admin/dashboard');
+       router.push('/dashboard');
       } else {
         setError('Invalid username or password');
       }
